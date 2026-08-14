@@ -13,7 +13,7 @@ I build evidence-driven AI products, readable agent systems, and decision tools.
 
 - **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework/pull/7606)** — surfaced authorization URLs for Work IQ A2A-preview tool sources, with regression coverage.
 - **[AO Bench](https://github.com/MSKazemi/aobench/pull/44)** — added a runnable comparison walkthrough for evaluating two agent adapters across capability and governance dimensions.
-- **[AO Bench](https://github.com/MSKazemi/aobench/pull/48)** — improved report errors for missing or empty benchmark runs, with regression coverage and a fully passing CI matrix.
+- **[AO Bench](https://github.com/MSKazemi/aobench/pull/48)** — merged a reliability fix for missing or empty benchmark-run reports, with regression coverage and a fully passing CI matrix.
 
 ## What I care about
 
