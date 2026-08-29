@@ -1,24 +1,20 @@
 # Hi, I'm Leo Zhao
 
-I build evidence-driven AI products, readable agent systems, and decision tools.
+I'm a data scientist who builds small AI tools and decision systems. I like work where the reasoning stays visible: what the data says, what the system did, and where a person should still decide.
 
-## Building
+### Recent work
 
-- **[Agent System Mini](https://github.com/LobsterQBA/agent-system-mini)** — a small, inspectable agent loop with tools, SQLite memory, and traces.
-- **[Point2Prompt](https://github.com/LobsterQBA/point2prompt)** — a browser pointing layer that turns selected UI elements into structured change briefs for coding agents.
-- **[SplitTaste](https://github.com/LobsterQBA/splittaste)** — mixed-household streaming recommendations with user-guided taste lanes and reproducible MovieLens evaluation.
-- **[Where to Sit](https://github.com/LobsterQBA/where-to-sit)** — a Seattle IMAX seat-view simulator for making a better seat choice.
+- **[Loop Ledger](https://github.com/LobsterQBA/loop-ledger)** — a small agent loop with safe tools, SQLite memory, and a step-by-step trace. It runs locally without an API key.
+- **[Point2Prompt](https://github.com/LobsterQBA/point2prompt)** — point at a UI element and turn feedback into a structured brief for a coding agent.
+- **[SplitTaste](https://github.com/LobsterQBA/splittaste)** — a reproducible experiment for repairing mixed-household streaming recommendations.
+- **[Where to Sit](https://github.com/LobsterQBA/where-to-sit)** — a seat-view simulator for making a better cinema seat choice.
 
-## Contributing to agent infrastructure
+### Open-source contributions
 
-- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework/pull/7606)** — surfaced authorization URLs for Work IQ A2A-preview tool sources, with regression coverage.
-- **[AO Bench](https://github.com/MSKazemi/aobench/pull/44)** — added a runnable comparison walkthrough for evaluating two agent adapters across capability and governance dimensions.
-- **[AO Bench](https://github.com/MSKazemi/aobench/pull/48)** — merged a reliability fix for missing or empty benchmark-run reports, with regression coverage and a fully passing CI matrix.
+- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework/pull/7606)** — exposed authorization URLs for Work IQ tool sources and added regression coverage.
+- **[AO Bench](https://github.com/MSKazemi/aobench/pull/48)** — fixed missing or empty benchmark reports; the change was merged with a passing CI matrix.
+- **[AO Bench](https://github.com/MSKazemi/aobench/pull/44)** — added a runnable comparison walkthrough for two agent adapters.
 
-## What I care about
+I'm interested in agent reliability, useful evaluation, and human-in-the-loop product design.
 
-Agent reliability, useful evaluation, human-in-the-loop product design, and tools that make complex systems easier to inspect and improve.
-
-## Elsewhere
-
-- [Portfolio](https://www.leozhao.me)
+[Personal site](https://www.leozhao.me)
