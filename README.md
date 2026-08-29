@@ -4,7 +4,7 @@ I'm a data scientist who builds small AI tools and decision systems. I like work
 
 ### Recent work
 
-- **[Loop Ledger](https://github.com/LobsterQBA/loop-ledger)** — a small agent loop with safe tools, SQLite memory, and a step-by-step trace. It runs locally without an API key.
+- **[Loop Agent](https://github.com/LobsterQBA/loop-agent)** — a small agent loop with safe tools, SQLite memory, and a step-by-step trace. It runs locally without an API key.
 - **[Point2Prompt](https://github.com/LobsterQBA/point2prompt)** — point at a UI element and turn feedback into a structured brief for a coding agent.
 - **[SplitTaste](https://github.com/LobsterQBA/splittaste)** — a reproducible experiment for repairing mixed-household streaming recommendations.
 - **[Where to Sit](https://github.com/LobsterQBA/where-to-sit)** — a seat-view simulator for making a better cinema seat choice.
