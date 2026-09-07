@@ -4,6 +4,7 @@ I'm a data scientist who builds small AI tools and decision systems. I like work
 
 ### Recent work
 
+- **[Tab Tidy](https://www.leozhao.me/tab-tidy)** — a Chrome extension that suggests tab groups, lets you refine the plan in plain English, and previews changes before you apply them.
 - **[Loop Agent](https://github.com/LobsterQBA/loop-agent)** — a small agent loop with safe tools, SQLite memory, and a step-by-step trace. It runs locally without an API key.
 - **[Point2Prompt](https://github.com/LobsterQBA/point2prompt)** — point at a UI element and turn feedback into a structured brief for a coding agent.
 - **[SplitTaste](https://github.com/LobsterQBA/splittaste)** — a reproducible experiment for repairing mixed-household streaming recommendations.
