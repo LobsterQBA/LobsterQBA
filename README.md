@@ -14,8 +14,6 @@ Data scientist in Seattle building AI tools, agent systems, and decision product
 | **[Trackpad Canvas](https://github.com/LobsterQBA/trackpad-canvas)** · [site](https://www.leozhao.me/projects/trackpad-canvas) | Native macOS diagramming app that draws from raw trackpad touches and snaps sketches into connected architecture diagrams. | Swift, SwiftUI |
 | **[SplitTaste](https://github.com/LobsterQBA/splittaste)** · [demo](https://www.leozhao.me/projects/splittaste) | Repairs shared-account streaming recommendations with two user questions; reproducible MovieLens 32M evaluation with honest metric gates. | Python, DuckDB, SVD, Next.js |
 | **[Where to Sit](https://github.com/LobsterQBA/where-to-sit)** · [demo](https://www.leozhao.me/projects/where-to-sit/) | 3D IMAX seat-view simulator for 20 venues across Seattle, NYC, and the Bay Area. | TypeScript, React Three Fiber |
-| **[Coffee Retail Decision Science](https://github.com/LobsterQBA/coffee-retail-decision-science)** | Public-data city price map plus a SQL → elasticity → diff-in-diff → promotion ranking → monitoring pipeline. | Python, SQL |
-| **[Cart Half-Life](https://github.com/LobsterQBA/cart-half-life)** | Behavioral experiment on whether a cart should resolve intent instead of pushing checkout; paired synthetic study with decision-quality metrics. | Python, Streamlit |
 
 ## Open-source contributions
 
