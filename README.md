@@ -10,11 +10,11 @@ I'm a data scientist building AI tools, agent systems, and decision products. I 
 
 ### Open-source contributions
 
-- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework/pull/7606)** — surfaced A2A preview consent URLs and added regression coverage. Merged.
-- **[AO Bench](https://github.com/MSKazemi/aobench/pull/48)** — made missing or empty benchmark reports easier to diagnose. Merged.
-- **[Strands Harness SDK](https://github.com/strands-agents/harness-sdk/pull/4291)** — stops retry backoff promptly when a TypeScript run is cancelled. In review.
-- **[OpenMed](https://github.com/maziyarpanahi/openmed/pull/3074)** — adds strict, versioned parsing for agent run summaries. In review.
-- **[OpenHarness](https://github.com/HKUDS/OpenHarness/pull/359)** — prevents disabled tools from leaking into model guidance. In review.
+- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework/pull/7606)** — surfaced A2A preview consent URLs and added regression coverage.
+- **[AO Bench](https://github.com/MSKazemi/aobench/pull/48)** — made missing or empty benchmark reports easier to diagnose.
+- **[Strands Harness SDK](https://github.com/strands-agents/harness-sdk/pull/4291)** — stops retry backoff promptly when a TypeScript run is cancelled.
+- **[OpenMed](https://github.com/maziyarpanahi/openmed/pull/3074)** — adds strict, versioned parsing for agent run summaries.
+- **[OpenHarness](https://github.com/HKUDS/OpenHarness/pull/359)** — prevents disabled tools from leaking into model guidance.
 
 I'm interested in agent reliability, useful evaluation, and human-in-the-loop product design.
 
