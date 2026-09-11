@@ -6,14 +6,14 @@ Data scientist in Seattle building AI tools, agent systems, and decision product
 
 ## Selected projects
 
-| Project | What it is | Built with |
-| --- | --- | --- |
-| **[Loop Agent](https://github.com/LobsterQBA/loop-agent)** · [demo](https://lobsterqba.github.io/loop-agent/) | A tool-using agent loop with safe tools, SQLite memory, and a step-by-step execution trace. Runs locally without an API key. | Python, SQLite |
-| **[Tab Tidy](https://www.leozhao.me/tab-tidy)** · [Chrome Web Store](https://chromewebstore.google.com/detail/tab-tidy-ai/llgmobdbimolaapfjkhagkmhjbgeoeak) | Chrome extension that proposes tab groups, takes plain-English refinements, and previews every change before applying it. | JavaScript, Cloudflare Workers |
-| **[Point2Prompt](https://github.com/LobsterQBA/point2prompt)** · [install](https://lobsterqba.github.io/point2prompt/) | Bookmarklet that turns a click on any UI element into a structured change brief for Claude Code, Codex, or Cursor. | Vanilla JS |
-| **[Trackpad Canvas](https://github.com/LobsterQBA/trackpad-canvas)** · [site](https://www.leozhao.me/projects/trackpad-canvas) | Native macOS diagramming app that draws from raw trackpad touches and snaps sketches into connected architecture diagrams. | Swift, SwiftUI |
-| **[SplitTaste](https://github.com/LobsterQBA/splittaste)** · [demo](https://www.leozhao.me/projects/splittaste) | Repairs shared-account streaming recommendations with two user questions; reproducible MovieLens 32M evaluation with honest metric gates. | Python, DuckDB, SVD, Next.js |
-| **[Where to Sit](https://github.com/LobsterQBA/where-to-sit)** · [demo](https://www.leozhao.me/projects/where-to-sit/) | 3D IMAX seat-view simulator for 20 venues across Seattle, NYC, and the Bay Area. | TypeScript, React Three Fiber |
+| Project | What it is |
+| --- | --- |
+| **[Loop Agent](https://github.com/LobsterQBA/loop-agent)** · [demo](https://lobsterqba.github.io/loop-agent/) | A tool-using agent loop with safe tools, SQLite memory, and a step-by-step execution trace. Runs locally without an API key. |
+| **[Tab Tidy](https://www.leozhao.me/tab-tidy)** · [Chrome Web Store](https://chromewebstore.google.com/detail/tab-tidy-ai/llgmobdbimolaapfjkhagkmhjbgeoeak) | Chrome extension that proposes tab groups, takes plain-English refinements, and previews every change before applying it. |
+| **[Point2Prompt](https://github.com/LobsterQBA/point2prompt)** · [install](https://lobsterqba.github.io/point2prompt/) | Bookmarklet that turns a click on any UI element into a structured change brief for Claude Code, Codex, or Cursor. |
+| **[Trackpad Canvas](https://github.com/LobsterQBA/trackpad-canvas)** · [site](https://www.leozhao.me/projects/trackpad-canvas) | Native macOS diagramming app that draws from raw trackpad touches and snaps sketches into connected architecture diagrams. |
+| **[SplitTaste](https://github.com/LobsterQBA/splittaste)** · [demo](https://www.leozhao.me/projects/splittaste) | Repairs shared-account streaming recommendations with two user questions; reproducible MovieLens 32M evaluation with honest metric gates. |
+| **[Where to Sit](https://github.com/LobsterQBA/where-to-sit)** · [demo](https://www.leozhao.me/projects/where-to-sit/) | 3D IMAX seat-view simulator for 20 venues across Seattle, NYC, and the Bay Area. |
 
 ## Open-source contributions
 
