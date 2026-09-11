@@ -6,7 +6,7 @@ I'm a data scientist building AI tools, agent systems, and decision products. I 
 
 - **[Loop Agent](https://github.com/LobsterQBA/loop-agent)** — a small agent loop with safe tools, SQLite memory, and a step-by-step trace. It runs locally without an API key.
 - **[Tab Tidy](https://www.leozhao.me/tab-tidy)** — a Chrome extension that proposes tab groups, accepts plain-English refinements, and previews every change before applying it.
-- **[Podcast to Book](https://github.com/LobsterQBA/podcast-to-book)** — a workflow for turning public business and technology podcasts into private bilingual, print-ready books.
+- **[Personal Index](https://www.leozhao.me)** — a compact home for selected projects, current work, and ways to get in touch.
 
 ### Open-source contributions
 
