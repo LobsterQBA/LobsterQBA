@@ -8,7 +8,7 @@ Data scientist in Seattle building AI tools, agent systems, and decision product
 
 | Project | What it is |
 | --- | --- |
-| **[Loop Agent](https://github.com/LobsterQBA/loop-agent)** · [demo](https://lobsterqba.github.io/loop-agent/) | A tool-using agent loop with safe tools, SQLite memory, and a step-by-step execution trace. Runs locally without an API key. |
+| **[Loop Agent](https://github.com/LobsterQBA/loop-agent)** · [demo](https://lobsterqba.github.io/loop-agent/) | A tool-using agent loop with persistent traces, integrity checks, and bounded tool calls, arguments, and results. Runs locally without an API key. |
 | **[Tab Tidy](https://www.leozhao.me/tab-tidy)** · [Chrome Web Store](https://chromewebstore.google.com/detail/tab-tidy-ai/llgmobdbimolaapfjkhagkmhjbgeoeak) | Chrome extension that proposes tab groups, takes plain-English refinements, and previews every change before applying it. |
 | **[Point2Prompt](https://github.com/LobsterQBA/point2prompt)** · [install](https://lobsterqba.github.io/point2prompt/) | Bookmarklet that turns a click on any UI element into a structured change brief for Claude Code, Codex, or Cursor. |
 | **[Trackpad Canvas](https://github.com/LobsterQBA/trackpad-canvas)** · [site](https://www.leozhao.me/projects/trackpad-canvas) | Native macOS diagramming app that draws from raw trackpad touches and snaps sketches into connected architecture diagrams. |
@@ -18,7 +18,7 @@ Data scientist in Seattle building AI tools, agent systems, and decision product
 ## Open-source contributions
 
 - **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework/pull/7606)** — surfaced A2A preview consent URLs and added regression coverage.
-- **[AO Bench](https://github.com/MSKazemi/aobench/pull/48)** — made missing or empty benchmark reports easier to diagnose.
 - **[Strands Harness SDK](https://github.com/strands-agents/harness-sdk/pull/4291)** — stops retry backoff promptly when a TypeScript run is cancelled.
 - **[OpenMed](https://github.com/maziyarpanahi/openmed/pull/3074)** — adds strict, versioned parsing for agent run summaries.
+- **[DeepEval](https://github.com/confident-ai/deepeval/pull/3285)** — normalizes verbose judge verdicts so ambiguous outputs cannot silently become passing scores.
 - **[OpenHarness](https://github.com/HKUDS/OpenHarness/pull/359)** — prevents disabled tools from leaking into model guidance.
