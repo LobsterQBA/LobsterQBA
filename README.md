@@ -1,24 +1,32 @@
 # Hi, I'm Leo Zhao
 
-Data scientist in Seattle building AI tools, agent systems, and decision products. I care about systems that are useful, inspectable, and honest about where people still need to decide.
+I'm a data scientist in Seattle working on distributed data pipelines and applied AI. I turn event data into reliable tables for analytics and build small agent systems with inspectable execution, persistent state, and explicit limits.
 
-[leozhao.me](https://www.leozhao.me) · Interested in agent reliability, useful evaluation, and human-in-the-loop product design.
+[Personal site](https://www.leozhao.me) · [Loop Agent demo](https://lobsterqba.github.io/loop-agent/)
+
+## Data engineering and applied AI
+
+- **WPP:** Spark and Databricks pipelines for cross-channel advertising data, processing roughly 5–20 million rows per day. My work includes SQL integration, table modeling, data-quality checks, and refresh monitoring.
+- **ByteDance:** Payment data pipelines using Kafka, Spark, and Iceberg. My contributions include transaction and user table definitions, partitioning, and diagnosing Spark data skew and memory pressure with Spark UI and executor logs.
+- **Applied AI:** PyTorch forecasting, LLM post-training evaluation, and RAG and agent projects. I care about checking outputs and failure cases, not just getting a model to return an answer.
+
+My strongest tools are Python, SQL, Spark, and Databricks. I'm interested in reliable data products, distributed processing, and AI systems whose behavior can be tested and inspected.
 
 ## Selected projects
 
-| Project | What it is |
+| Project | What you can inspect |
 | --- | --- |
-| **[Loop Agent](https://github.com/LobsterQBA/loop-agent)** · [demo](https://lobsterqba.github.io/loop-agent/) | A tool-using agent loop with persistent traces, integrity checks, and bounded tool calls, arguments, and results. Runs locally without an API key. |
+| **[Loop Agent](https://github.com/LobsterQBA/loop-agent)** · [demo](https://lobsterqba.github.io/loop-agent/) · [architecture](https://github.com/LobsterQBA/loop-agent/blob/main/docs/architecture.md) | Python tool execution, SQLite state, completed and failed run traces, and deterministic trace-integrity checks. Execution budgets and input validation have regression coverage. The fixed-rule demo needs no API key; live mode uses a configured model. |
+| **[SplitTaste](https://github.com/LobsterQBA/splittaste)** · [demo](https://www.leozhao.me/projects/splittaste) | DuckDB ETL from MovieLens 32M ratings to Parquet, a versioned browser data contract, and reproducible recommendation evaluation with baselines and explicit metric gates. |
 | **[Tab Tidy](https://www.leozhao.me/tab-tidy)** · [Chrome Web Store](https://chromewebstore.google.com/detail/tab-tidy-ai/llgmobdbimolaapfjkhagkmhjbgeoeak) | Chrome extension that proposes tab groups, takes plain-English refinements, and previews every change before applying it. |
 | **[Point2Prompt](https://github.com/LobsterQBA/point2prompt)** · [install](https://lobsterqba.github.io/point2prompt/) | Bookmarklet that turns a click on any UI element into a structured change brief for Claude Code, Codex, or Cursor. |
-| **[Trackpad Canvas](https://github.com/LobsterQBA/trackpad-canvas)** · [site](https://www.leozhao.me/projects/trackpad-canvas) | Native macOS diagramming app that draws from raw trackpad touches and snaps sketches into connected architecture diagrams. |
-| **[SplitTaste](https://github.com/LobsterQBA/splittaste)** · [demo](https://www.leozhao.me/projects/splittaste) | Repairs shared-account streaming recommendations with two user questions; reproducible MovieLens 32M evaluation with honest metric gates. |
-| **[Where to Sit](https://github.com/LobsterQBA/where-to-sit)** · [demo](https://www.leozhao.me/projects/where-to-sit/) | 3D IMAX seat-view simulator for 20 venues across Seattle, NYC, and the Bay Area. |
+
+Other projects: [Trackpad Canvas](https://github.com/LobsterQBA/trackpad-canvas), a native macOS diagramming app, and [Where to Sit](https://github.com/LobsterQBA/where-to-sit), a cinema seat-view simulator.
 
 ## Open-source contributions
 
-- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework/pull/7606)** — surfaced A2A preview consent URLs and added regression coverage.
-- **[Strands Harness SDK](https://github.com/strands-agents/harness-sdk/pull/4291)** — stops retry backoff promptly when a TypeScript run is cancelled.
-- **[OpenMed](https://github.com/maziyarpanahi/openmed/pull/3074)** — adds strict, versioned parsing for agent run summaries.
-- **[DeepEval](https://github.com/confident-ai/deepeval/pull/3285)** — normalizes verbose judge verdicts so ambiguous outputs cannot silently become passing scores.
-- **[OpenHarness](https://github.com/HKUDS/OpenHarness/pull/359)** — prevents disabled tools from leaking into model guidance.
+- **[Strands Harness SDK](https://github.com/strands-agents/harness-sdk/pull/4291):** Interrupted retry backoff promptly when a TypeScript run is cancelled.
+- **[OpenMed](https://github.com/maziyarpanahi/openmed/pull/3074):** Added strict, versioned parsing for agent run summaries.
+- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework/pull/7606):** Surfaced A2A preview consent URLs and added regression coverage.
+- **[DeepEval](https://github.com/confident-ai/deepeval/pull/3285):** Contributed a proposed judge-verdict normalization fix and regression tests for ambiguous outputs.
+- **[OpenHarness](https://github.com/HKUDS/OpenHarness/pull/359):** Contributed a proposed fix to keep disabled tools out of model guidance.
