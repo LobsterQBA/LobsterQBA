@@ -25,8 +25,8 @@ Other projects: [Trackpad Canvas](https://github.com/LobsterQBA/trackpad-canvas)
 
 ## Open-source contributions
 
-- **[Strands Harness SDK](https://github.com/strands-agents/harness-sdk/pull/4291):** Interrupted retry backoff promptly when a TypeScript run is cancelled.
-- **[OpenMed](https://github.com/maziyarpanahi/openmed/pull/3074):** Added strict, versioned parsing for agent run summaries.
-- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework/pull/7606):** Surfaced A2A preview consent URLs and added regression coverage.
-- **[DeepEval](https://github.com/confident-ai/deepeval/pull/3285):** Contributed a proposed judge-verdict normalization fix and regression tests for ambiguous outputs.
-- **[OpenHarness](https://github.com/HKUDS/OpenHarness/pull/359):** Contributed a proposed fix to keep disabled tools out of model guidance.
+- **[Strands Harness SDK](https://github.com/strands-agents/harness-sdk/pull/4291)**
+- **[OpenMed](https://github.com/maziyarpanahi/openmed/pull/3074)**
+- **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework/pull/7606)**
+- **[DeepEval](https://github.com/confident-ai/deepeval/pull/3285)**
+- **[OpenHarness](https://github.com/HKUDS/OpenHarness/pull/359)**
