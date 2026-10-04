@@ -4,7 +4,7 @@ I'm a data scientist in Seattle working on distributed data pipelines and applie
 
 [Personal site](https://www.leozhao.me) · [Loop Agent demo](https://lobsterqba.github.io/loop-agent/)
 
-## Data engineering and applied AI
+## Engineering
 
 - **WPP:** Spark and Databricks pipelines for cross-channel advertising data, processing roughly 5–20 million rows per day. My work includes SQL integration, table modeling, data-quality checks, and refresh monitoring.
 - **ByteDance:** Payment data pipelines using Kafka, Spark, and Iceberg. My contributions include transaction and user table definitions, partitioning, and diagnosing Spark data skew and memory pressure with Spark UI and executor logs.
