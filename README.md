@@ -25,6 +25,7 @@ Other projects: [Trackpad Canvas](https://github.com/LobsterQBA/trackpad-canvas)
 
 ## Open-source contributions
 
+- **PyMC Marketing:** fixed [time-varying baseline plots](https://github.com/pymc-labs/pymc-marketing/pull/3081) and [target-scale dimensions in marketing mix model summaries](https://github.com/pymc-labs/pymc-marketing/pull/3065).
 - **[Strands Harness SDK](https://github.com/strands-agents/harness-sdk/pull/4291)**
 - **[OpenMed](https://github.com/maziyarpanahi/openmed/pull/3074)**
 - **[Microsoft Agent Framework](https://github.com/microsoft/agent-framework/pull/7606)**
