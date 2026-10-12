@@ -16,7 +16,7 @@ My strongest tools are Python, SQL, Spark, and Databricks. I'm interested in rel
 
 | Project | What you can inspect |
 | --- | --- |
-| **[Loop Agent](https://github.com/LobsterQBA/loop-agent)** · [demo](https://lobsterqba.github.io/loop-agent/) · [architecture](https://github.com/LobsterQBA/loop-agent/blob/main/docs/architecture.md) | Python tool execution, SQLite state, completed and failed run traces, and deterministic trace-integrity checks. Execution budgets and input validation have regression coverage. The fixed-rule demo needs no API key; live mode uses a configured model. |
+| **[Loop Agent](https://github.com/LobsterQBA/loop-agent)** · [demo](https://lobsterqba.github.io/loop-agent/) · [architecture](https://github.com/LobsterQBA/loop-agent/blob/main/docs/architecture.md) | Python tool execution, SQLite state, completed, incomplete, and failed run traces, and deterministic trace-integrity checks. Execution budgets and input validation have regression coverage. The fixed-rule demo needs no API key; live mode uses a configured model. |
 | **[SplitTaste](https://github.com/LobsterQBA/splittaste)** · [demo](https://www.leozhao.me/projects/splittaste) | DuckDB ETL from MovieLens 32M ratings to Parquet, a versioned browser data contract, and reproducible recommendation evaluation with baselines and explicit metric gates. |
 | **[Tab Tidy](https://www.leozhao.me/tab-tidy)** · [Chrome Web Store](https://chromewebstore.google.com/detail/tab-tidy-ai/llgmobdbimolaapfjkhagkmhjbgeoeak) | Chrome extension that proposes tab groups, takes plain-English refinements, and previews every change before applying it. |
 | **[Point2Prompt](https://github.com/LobsterQBA/point2prompt)** · [install](https://lobsterqba.github.io/point2prompt/) | Bookmarklet that turns a click on any UI element into a structured change brief for Claude Code, Codex, or Cursor. |
@@ -25,6 +25,7 @@ Other projects: [Trackpad Canvas](https://github.com/LobsterQBA/trackpad-canvas)
 
 ## Open-source contributions
 
+- **Loop Agent (2026-10-12):** Iteration-limit turns were reported as completed. [This fix](https://github.com/LobsterQBA/loop-agent/commit/0a6d509746502e2f289aa444a84e552b7dc1e85f) records them as incomplete across run history, API, trace evaluation, and UI. Outcome: pushed to `main`; 67 tests pass.
 - **PyMC Marketing:** fixed [time-varying baseline plots](https://github.com/pymc-labs/pymc-marketing/pull/3081) and [target-scale dimensions in marketing mix model summaries](https://github.com/pymc-labs/pymc-marketing/pull/3065).
 - **[Strands Harness SDK](https://github.com/strands-agents/harness-sdk/pull/4291)**
 - **[OpenMed](https://github.com/maziyarpanahi/openmed/pull/3074)**
